@@ -1,0 +1,11 @@
+{
+  "name": "node-beginner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/whinc/node-beginner.git",
+  "author": "whincwu <whincwu@163.com>",
+  "license": "MIT",
+  "scripts": {
+      "start": "node index.js"
+  }
+}
