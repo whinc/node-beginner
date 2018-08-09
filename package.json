@@ -6,6 +6,9 @@
   "author": "whincwu <whincwu@163.com>",
   "license": "MIT",
   "scripts": {
-      "start": "node index.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "formidable": "^1.2.1"
   }
 }

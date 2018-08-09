@@ -6,8 +6,8 @@ function start(router) {
     let server = http.createServer((req, res) => {
         router.route(req, res);
     });
-    server.listen(8080);
-    console.log('start server in ' + process.cwd());
+    server.listen(8090);
+    console.log('start server in http://localhost:' + server.address().port);
 }
 
 exports.start = start;
